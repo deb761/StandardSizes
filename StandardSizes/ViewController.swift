@@ -10,9 +10,11 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    var sizes:Sizes!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        sizes = Sizes()
         // Do any additional setup after loading the view.
     }
 
