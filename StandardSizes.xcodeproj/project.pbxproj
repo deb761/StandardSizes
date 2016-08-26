@@ -13,11 +13,7 @@
 		87EFFAB91D70A02C00AAA422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFAB71D70A02C00AAA422 /* Main.storyboard */; };
 		87EFFAC41D70A02C00AAA422 /* StandardSizesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFFAC31D70A02C00AAA422 /* StandardSizesTests.swift */; };
 		87EFFAFA1D70B5FB00AAA422 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFFAF91D70B5FB00AAA422 /* Sizes.swift */; };
-		87EFFB011D70BAAB00AAA422 /* baby.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFAFC1D70BAAB00AAA422 /* baby.csv */; };
-		87EFFB021D70BAAB00AAA422 /* child.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFAFD1D70BAAB00AAA422 /* child.csv */; };
-		87EFFB031D70BAAB00AAA422 /* men.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFAFE1D70BAAB00AAA422 /* men.csv */; };
-		87EFFB041D70BAAB00AAA422 /* women.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFAFF1D70BAAB00AAA422 /* women.csv */; };
-		87EFFB051D70BAAB00AAA422 /* youth.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87EFFB001D70BAAB00AAA422 /* youth.csv */; };
+		87EFFB071D70F9DF00AAA422 /* WriteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EFFB061D70F9DF00AAA422 /* WriteData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +37,7 @@
 		87EFFAC31D70A02C00AAA422 /* StandardSizesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSizesTests.swift; sourceTree = "<group>"; };
 		87EFFAC51D70A02C00AAA422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87EFFAF91D70B5FB00AAA422 /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
-		87EFFAFC1D70BAAB00AAA422 /* baby.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = baby.csv; sourceTree = "<group>"; };
-		87EFFAFD1D70BAAB00AAA422 /* child.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = child.csv; sourceTree = "<group>"; };
-		87EFFAFE1D70BAAB00AAA422 /* men.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = men.csv; sourceTree = "<group>"; };
-		87EFFAFF1D70BAAB00AAA422 /* women.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = women.csv; sourceTree = "<group>"; };
-		87EFFB001D70BAAB00AAA422 /* youth.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = youth.csv; sourceTree = "<group>"; };
+		87EFFB061D70F9DF00AAA422 /* WriteData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +79,13 @@
 		87EFFAB01D70A02C00AAA422 /* StandardSizes */ = {
 			isa = PBXGroup;
 			children = (
-				87EFFAFB1D70BAAB00AAA422 /* data */,
 				87EFFAB11D70A02C00AAA422 /* AppDelegate.swift */,
 				87EFFAB31D70A02C00AAA422 /* ViewController.swift */,
 				87EFFAB51D70A02C00AAA422 /* Assets.xcassets */,
 				87EFFAB71D70A02C00AAA422 /* Main.storyboard */,
 				87EFFABA1D70A02C00AAA422 /* Info.plist */,
 				87EFFAF91D70B5FB00AAA422 /* Sizes.swift */,
+				87EFFB061D70F9DF00AAA422 /* WriteData.swift */,
 			);
 			path = StandardSizes;
 			sourceTree = "<group>";
@@ -105,18 +97,6 @@
 				87EFFAC51D70A02C00AAA422 /* Info.plist */,
 			);
 			path = StandardSizesTests;
-			sourceTree = "<group>";
-		};
-		87EFFAFB1D70BAAB00AAA422 /* data */ = {
-			isa = PBXGroup;
-			children = (
-				87EFFAFC1D70BAAB00AAA422 /* baby.csv */,
-				87EFFAFD1D70BAAB00AAA422 /* child.csv */,
-				87EFFAFE1D70BAAB00AAA422 /* men.csv */,
-				87EFFAFF1D70BAAB00AAA422 /* women.csv */,
-				87EFFB001D70BAAB00AAA422 /* youth.csv */,
-			);
-			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,12 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87EFFB051D70BAAB00AAA422 /* youth.csv in Resources */,
-				87EFFB021D70BAAB00AAA422 /* child.csv in Resources */,
-				87EFFB011D70BAAB00AAA422 /* baby.csv in Resources */,
 				87EFFAB61D70A02C00AAA422 /* Assets.xcassets in Resources */,
-				87EFFB031D70BAAB00AAA422 /* men.csv in Resources */,
-				87EFFB041D70BAAB00AAA422 /* women.csv in Resources */,
 				87EFFAB91D70A02C00AAA422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +202,7 @@
 				87EFFAB41D70A02C00AAA422 /* ViewController.swift in Sources */,
 				87EFFAB21D70A02C00AAA422 /* AppDelegate.swift in Sources */,
 				87EFFAFA1D70B5FB00AAA422 /* Sizes.swift in Sources */,
+				87EFFB071D70F9DF00AAA422 /* WriteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
